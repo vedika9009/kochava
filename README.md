@@ -11,7 +11,9 @@ Download [Docker Desktop](https://www.docker.com/products/docker-desktop) for Ma
 
 ## Containers
 
-The stack uses Node.js with Redis.
+The stack runs Node.js with Redis in different containers. 
+
+
 
 For running the app, navigate to npm-docker folder
 
