@@ -13,7 +13,8 @@ Download [Docker Desktop](https://www.docker.com/products/docker-desktop) for Ma
 
 The stack runs Node.js with Redis in different containers. 
 
-
+How to run the app
+---------------
 
 For running the app, navigate to npm-docker folder
 
@@ -27,7 +28,7 @@ Run the app using:
 docker-compose -f docker-compose.yml up -d
 ```
 
-Open the browser and navigate to http://localhost:9001. Initially the count is 0. As you refresh the page the counter increases.
+Open the browser and navigate to http://localhost:9001. Initially the count is set to 0. As you refresh the page the counter increases.
 The counter value is stored in Redis. As the webpage is refreshed the counter value is incremented by 1.
 
 
